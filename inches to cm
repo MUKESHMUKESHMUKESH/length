@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Script</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "wrapper">
+      <h2>inches to cm</h2>
+      <div class="input">
+         <input type="text" id="input" placeholder="length">
+      </div>
+         <div>
+            <button type="submit" onclick = "goat()">convert to inches</button>
+         </div>
+         <div id = "result">
+         
+         </div>
+      
+
+         
+    </div>
+    <script>
+      function goat(){
+      let das = Number(document.getElementById("input").value)
+      let claim = das/2.54
+      document.getElementById(result)
+      result.innerHTML = claim
+      }
+      
+    </script>
+</body>
+</html>
